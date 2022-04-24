@@ -1,0 +1,92 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    place-items: center;
+}
+
+hr {
+    border: 1px solid rgb(141, 79, 79);
+    border-radius: 5px;
+}
+
+.navbar {
+
+    height: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.left {
+    height: auto;
+    border-right: 2px solid rgb(234, 153, 153);
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    background: #F8B400;
+    margin: 2px;
+
+
+}
+
+.submit {
+    position: relative;
+    background-color: #845c3c;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #F8B400;
+    margin-bottom: 0;
+    margin-top: 80px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer ul {
+    list-style: none;
+}
